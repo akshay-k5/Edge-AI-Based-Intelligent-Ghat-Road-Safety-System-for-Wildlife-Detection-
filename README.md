@@ -16,23 +16,7 @@ This project proposes an Edge AI–based Smart Ghat Road Safety System that uses
 
 </div>
 
----
 
-## 📋 Table of Contents
-- [Overview](#-overview)
-- [Features](#-features)
-- [System Architecture](#-system-architecture)
-- [Hardware Requirements](#-hardware-requirements)
-- [Pinout & Connections](#-pinout--connections)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Message Protocol](#-message-protocol)
-- [Project Structure](#-project-structure)
-- [Troubleshooting](#-troubleshooting)
-- [Future Enhancements](#-future-enhancements)
-- [Contributing](#-contributing)
-
----
 
 ## 🔭 Overview
 
