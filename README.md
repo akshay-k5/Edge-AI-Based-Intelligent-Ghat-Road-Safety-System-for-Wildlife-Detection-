@@ -1,0 +1,2 @@
+# Edge-AI-Based-Intelligent-Ghat-Road-Safety-System-for-Wildlife-Detection-
+This project proposes an Edge AI–based Smart Ghat Road Safety System that uses IoT, computer vision, and real-time communication to identify wildlife crossings. The system automatically sends alerts to drivers and relevant authorities, helping to improve road safety, reduce wildlife collisions, and enable faster emergency response.
