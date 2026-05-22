@@ -26,6 +26,7 @@
 - [System Architecture](#system-architecture)
 - [Hardware Requirements](#hardware-requirements)
 - [Circuit Diagrams](#circuit-diagrams)
+- [Practical Setup](#practical-setup)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Files](#project-files)
@@ -43,7 +44,7 @@ An Edge AI-based intelligent safety system designed for ghat roads (mountain pas
 
 ## Block Diagram
 
-![Block Diagram](blockdiagram.png)
+![Block Diagram](Project_Architecture.png)
 
 ---
 
@@ -142,6 +143,34 @@ RECEIVER STATION (ESP32) - At Check Post / Control Room
 ![Receiver Station Circuit](Receiver_Gate_Circuit_Diagram.png)
 
 ---
+## Practical Setup
+
+### Edge Node Hardware Setup
+<div align="center">
+
+| Raspberry Pi with Components | Complete Edge Node Assembly |
+|:----------------------------:|:----------------------------:|
+| ![Edge Node Components](Edge_Node_Setup.png) | ![Full Assembly](Full_Setup.png) |
+
+</div>
+
+### Receiver Station Setup
+<div align="center">
+
+| ESP32 Receiver | Receiver with LoRa Module |
+|:--------------:|:-------------------------:|
+| ![ESP32 Receiver](ESP32_Receiver_Setup.png) | ![Receiver Complete](Receiver_Setup.png) |
+
+</div>
+
+### Deployment Setup
+<div align="center">
+
+| Outdoor Deployment | System in Operation |
+|:------------------:|:-------------------:|
+| ![Field Deployment](Field_Deployment.png) | ![System Running](System_Running.png) |
+
+</div>
 
 ## Installation
 
@@ -271,7 +300,7 @@ Location: Lat:12.3456 Lon:78.9012
 | **ESP_RECEIVER1.1.ino** | Updated ESP32 receiver with enhanced features |
 | **Edge_Node_Circuit_Diagram.png** | Wiring diagram for Raspberry Pi edge node |
 | **Receiver_Gate_Circuit_Diagram.png** | Wiring diagram for ESP32 receiver station |
-| **blockdiagram.png** | System block diagram |
+| **Project_Architecture.png** | System block diagram |
 | **README.md** | Project documentation |
 
 ### File Details
@@ -354,6 +383,7 @@ ALERT: <STATUS> | TYPE: <DETAILS> | CONF: <CONFIDENCE> | LOC: <LOCATION>
 ## Future Enhancements
 
 - Battery/Solar power monitoring with voltage reporting
+- Implementation of proposed system in Drones for smart wildlife surveillance
 - SD card logging for offline data storage
 - Web dashboard for multiple edge nodes along ghat road
 - SMS/Email alerts via ESP32 WiFi
