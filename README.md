@@ -145,30 +145,39 @@ RECEIVER STATION (ESP32) - At Check Post / Control Room
 ---
 ## Practical Setup
 
-### Edge Node Hardware Setup
+### Overall Components
 <div align="center">
 
-| Raspberry Pi with Components | Complete Edge Node Assembly |
-|:----------------------------:|:----------------------------:|
-| ![Edge Node Components](Edge_Node_Setup.png) | ![Full Assembly](Full_Setup.png) |
+![All Components](All_Components.png)
+
+*Complete set of hardware components used in the system*
 
 </div>
 
-### Receiver Station Setup
+### Edge Node Prototype (Raspberry Pi 3)
 <div align="center">
 
-| ESP32 Receiver | Receiver with LoRa Module |
-|:--------------:|:-------------------------:|
-| ![ESP32 Receiver](ESP32_Receiver_Setup.png) | ![Receiver Complete](Receiver_Setup.png) |
+![Edge Node Assembly](Edge_Node_Assembly.png)
+
+*Edge Node with Raspberry Pi 3, GPS module, LoRa HPD13A, camera, and LED indicators*
 
 </div>
 
-### Deployment Setup
+### Receiver Station Prototype (ESP32)
 <div align="center">
 
-| Outdoor Deployment | System in Operation |
-|:------------------:|:-------------------:|
-| ![Field Deployment](Field_Deployment.png) | ![System Running](System_Running.png) |
+![Receiver Assembly](Receiver_Assembly.png)
+
+*Receiver Station with ESP32 and LoRa HPD13A module for alert monitoring*
+
+</div>
+
+### Overall Setup
+<div align="center">
+
+![Overall Prototype](Setup.png)
+
+*Overall prototype of the proposed System*
 
 </div>
 
