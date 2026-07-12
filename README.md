@@ -44,7 +44,7 @@ An Edge AI-based intelligent safety system designed for ghat roads (mountain pas
 
 ## Block Diagram
 
-![Block Diagram](Project_Architecture.png)
+![Block Diagram](IoT_Project_Architecture.png)
 
 ---
 
