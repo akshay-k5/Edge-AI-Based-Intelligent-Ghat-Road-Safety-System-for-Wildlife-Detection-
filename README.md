@@ -137,10 +137,10 @@ RECEIVER STATION (ESP32) - At Check Post / Control Room
 ## Circuit Diagrams
 
 ### Edge Node Circuit (Raspberry Pi Side)
-![Edge Node Circuit](Edge_Node_Circuit_Diagram.png)
+![Edge Node Circuit](IOT_Edgenode_Circuit_diagram.png)
 
 ### Receiver Station Circuit (ESP32 Side)
-![Receiver Station Circuit](Receiver_Gate_Circuit_Diagram.png)
+![Receiver Station Circuit](IOT_Recever_Circuit_Diagram.png)
 
 ---
 ## Practical Setup
